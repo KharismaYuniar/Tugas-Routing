@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+
+    <title>Full Slider - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <style>
+     body{
+  margin:0px;
+  /* background: #2dc997; */
+ }
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.carousel-item .carousel-caption .button{
+  font-size: 18px;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  border:rgb(255, 255, 255) 1px solid;
+  padding:5px 5px;
+  border-radius: 10px;
+  margin-bottom:110px;
+}
+.carousel-item .carousel-caption .button:hover{
+ 
+  color:rgb(214, 241, 138);
+}
+
+.carousel-caption {
+  margin:200px;
+}
+
+
+
+.btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 20px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-get-started:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
+
+.container p{
+  text-align:justify;
+  justify-content:center;
+}
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('https://j0indbayuwinanda.files.wordpress.com/2012/09/t-amoeba-52.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+                <h2> Welcome Teater AmOeba </h2>
+                <p>TIKUS dan MANUSIA – John Steinbeck Teater Amoeba 2011<p> 
+                  <a href="#read" class="btn-get-started">Read More</a>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('http://2.bp.blogspot.com/-2xuxXvCSHmE/UMlTbjCa-sI/AAAAAAAAAko/E-2iaXZKTY0/s1600/9.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+                <h2> Welcome Teater AmOeba </h2>
+                <p>TIKUS dan MANUSIA – John Steinbeck Teater Amoeba 2011<p> 
+                  <a href="#read" class="btn-get-started">Read More</a>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('http://3.bp.blogspot.com/-iWMwcOqS810/T0y7M0s50yI/AAAAAAAAABw/qGoUUAeAPSs/s1600/T.Amoeba-29.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+                <h2> Welcome Teater AmOeba </h2>
+                <p>TIKUS dan MANUSIA – John Steinbeck Teater Amoeba 2011<p> 
+                  <a href="#read" class="btn-get-started">Read More</a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5" id = "read">
+        <div class="container">
+          <h1>Kisah Mice and Man</h1>
+          <p>Kisah Mice and Man adalah masa-masa sulit di zaman Agraris Amerika selatan 
+            dimana orang-orang terpaksa bekerja menjadi buruh pertanian di hamparan luas ladang gandum 
+            (ranch) dengan upah sangat minim. Kekuasaan para pemilik tanah yang kejam dan semena-mena 
+            kepada para buruh ini membuat keadaan semakin serba sulit untuk bertahan hidup.
+            Mereka mendapat gaji hanya untuk menutupi hutang-hutang para tengkulak dan renternir. 
+            Bahakan ada juga yg menyerahkan anak gadisnya sebagai pelunasan hutang-hutang 
+            untuk dijadikan istri atau selir-selir para renternir dan pemilik tanah. 
+            Dalam keadaan masa sulit perekonomian itu dua orang buruh imigran dari utara 
+            George Milton dan Lenny Small justru memiliki sebuah cita-cita, ia menjual tenaganya 
+            kesana-kemari pada boss-boss pemilik tanah dengan harapan gaji mereka dapat membeli sebuah pondok 
+            di atas perbukitan dengan ladang sawah dan kandang binatang peliharaan.  
+            Sungguh sebuah cita-cita dalam paradoks untuk mewujudkannya</p> 
+  
+            <p>Dalam seni pertunjukan yang digagas ini kami merubah situasi zaman Agraris itu ke zaman Industri 
+              untuk kebutuhan kontekstual dan artistik terhadap kenyataan di masa kini dimana para buruh
+              pabrikan hanyalah angka-angka yang bisa membuat perusahaan lebih berkembang dan maju 
+              dengan tanpa mempertimbangkan kesejahteraan hak-hak para buruh. Latar setting yang dimunculkan 
+              sebagai pendekatan adalah sebuah gudang pabrikan yang jorok, bau dan tidak terawat tempat para 
+              buruh pabrikan itu beristirahat. Metode yang dilakukan untuk penandaan perubahan sebuah sett 
+              dari babak ke babak adalah dengan cara menggeser dan menjadikannya dua fungsi yang berlainan 
+              termasuk di dalamnya adalah alunan lagu-lagu bernuansa Blues sebagai ilustrasinya. Tokoh-tokoh 
+              dengan aneka ragam karakter coba dimunculkan sesuai dengan pendekatan-pendekatan kekuatan teks 
+              yang dibunyikan aktor-aktor, ditafsir dan di dekatkan situasi dan keadaannya, tetapi yang lebih 
+              penting untuk kami garis bawahi adalah mengangkat kisah yang sederhana dengan alur yang Flat  ini 
+              menjadi sebuah pencerahan dan kesadaran bagi penonton/public agar cita-cita menjadi penting yang 
+              harus diwujudkan dimasa serba sulit ini, meski orang-orang sudah hampir tidak pernah mengucap 
+              kata ”cita-cita” </p>
+  
+              <p> Pada catatan buku KALEIDOSKOP SENI 2011 keluaran Dewan kesenian Jakarta, 
+                Afrizal Malna mencatat pentas ini sebagai sebuah bentuk peradaban manusia 
+                “Jiwa Yang Telah Menolak Peradaban Manusia” jiwa yang mengharukan, jiwa yang murni dan 
+                cacat yang akhirnya harus terusir dari peradaban yang keras. Peradaban yang tidak lagi 
+                memiliki ruang tersisa bagi jiwa yang murni itu.
+    
+                wassalam</p>
+                
+               <p> Joind Bayuwinada</p>
+            <code>full-slider.css</code>
+            
+        </div>
+      </section>
+
+ 
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
